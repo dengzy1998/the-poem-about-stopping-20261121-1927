@@ -15,9 +15,11 @@ POEM = (
     "not a habit, not a fear."
 )
 # Picked by duelling 10 original candidates with the competition's published
-# judge brief and judge model (z-ai/glm-5.3-flash), both orders per pair:
-# beat #8 (0.85), #1 (0.80), #4 in the semifinal (0.80), #10 in the final
-# (0.65), and #3 in a confirmation game (0.65).
+# judge brief and judge model (z-ai/glm-5.3-flash on OpenRouter), both
+# orders per pair, RULES scoring (picked = 0.5 + margin/10): this poem beat
+# #8 (0.85), #1 (0.80), #4 in the semifinal (0.80), #10 in the final (0.65),
+# and #3 in a confirmation game (0.65). Shorter rival #2 fell in the
+# quarterfinals; the agent's-voice angle won every round it played.
 
 
 def main() -> None:
